@@ -1,0 +1,132 @@
+* {
+    padding:0;
+    margin:0;
+}
+.header {
+    
+    width:100%;
+    top:0;
+    right:0;
+    left:0;
+
+}
+#nav {
+    display:flex;
+    height:46px;
+    justify-content: space-between;
+    padding:0 16px;
+    
+}
+
+
+.subnav {
+    
+    position: relative;
+    list-style: none;
+    line-height: 46px;
+    
+    
+}
+.subnav__img-logo {
+    height:100%;
+}
+.subnav__img-cart {
+    height:30px;
+    margin-right:50px;
+    margin-top:10px;
+    cursor: pointer;
+
+}
+
+#nav__bottom {
+    background-color: green;
+    height:46px;
+    display: flex;
+    justify-content: space-around;
+}
+#nav__bottom li {
+    display: inline-block;
+    list-style-type: none;
+}
+#nav__bottom li:hover {
+    opacity: 0.6;
+}
+
+#nav__bottom li a {
+    line-height: 46px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+/* Content */
+
+#content {
+    display: flex;
+}
+.content__left {
+    width:25%;
+    background-color: #80d180;
+    height:auto;
+}
+.content__left h2 {
+    text-align: center;
+}
+.content__left-menu a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left:33px;
+    margin-bottom: 8px;
+    
+    
+}
+.content__left-menu a:hover {
+    color:#fafafa;
+    cursor: pointer;
+}
+.content__left-menu a:first-child{
+    margin-top:16px;
+}
+
+.content__right {
+    width:75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content__left-list {
+    width:250px;
+    height:250px;
+    text-align: center;
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.content__left-img {
+    width: 200px;
+    height:200px;
+}
+.content__left-img:hover {
+    opacity:0.6;
+    cursor: pointer;
+}
+
+.content__left-items p:first-child{
+    font-weight: 600;
+    margin-bottom:16px;
+}
+
+/* footer */
+.footer__end {
+    height:46px;
+    background-color: green;
+   
+}
+.footer__end span {
+    color:#fff;
+    float: right;
+    margin-right:32px;
+    line-height: 46px;
+    font-size: 1.2rem;
+}
